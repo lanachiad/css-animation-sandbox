@@ -18,19 +18,19 @@ div.rotating-div {
 	right: 0;
 }
 
-@-ms-keyframes spin {
+@-ms-keyframes right-spin {
     from { -ms-transform: rotate(0deg); }
     to { -ms-transform: rotate(360deg); }
 }
-@-moz-keyframes spin {
+@-moz-keyframes right-spin {
     from { -moz-transform: rotate(0deg); }
     to { -moz-transform: rotate(360deg); }
 }
-@-webkit-keyframes spin {
+@-webkit-keyframes right-spin {
     from { -webkit-transform: rotate(0deg); }
     to { -webkit-transform: rotate(360deg); }
 }
-@keyframes spin {
+@keyframes right-spin {
     from {
         transform:rotate(0deg);
     }
@@ -39,19 +39,19 @@ div.rotating-div {
     }
 }
 
-@-ms-keyframes other-spin {
+@-ms-keyframes left-spin {
     from { -ms-transform: rotate(360deg); }
     to { -ms-transform: rotate(0deg); }
 }
-@-moz-keyframes other-spin {
+@-moz-keyframes left-spin {
     from { -moz-transform: rotate(360deg); }
     to { -moz-transform: rotate(0deg); }
 }
-@-webkit-keyframes other-spin {
+@-webkit-keyframes left-spin {
     from { -webkit-transform: rotate(360deg); }
     to { -webkit-transform: rotate(0deg); }
 }
-@keyframes other-spin {
+@keyframes left-spin {
     from {
         transform:rotate(360deg);
     }
@@ -65,20 +65,20 @@ div#outer {
 	height: 445px;
 	margin-top: 40px;
 	width: 445px;
-	-webkit-animation-name: spin;
+	-webkit-animation-name: right-spin;
     -webkit-animation-duration: 4000ms;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-    -moz-animation-name: spin;
+    -moz-animation-name: right-spin;
     -moz-animation-duration: 4000ms;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
-    -ms-animation-name: spin;
+    -ms-animation-name: right-spin;
     -ms-animation-duration: 4000ms;
     -ms-animation-iteration-count: infinite;
     -ms-animation-timing-function: linear;
     
-    animation-name: spin;
+    animation-name: right-spin;
     animation-duration: 4000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -89,20 +89,20 @@ div#middle {
 	height: 300px;
 	margin-top: 100px;
 	width: 300px;
-	-webkit-animation-name: other-spin;
+	-webkit-animation-name: left-spin;
     -webkit-animation-duration: 4000ms;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
-    -moz-animation-name: other-spin;
+    -moz-animation-name: left-spin;
     -moz-animation-duration: 4000ms;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
-    -ms-animation-name: other-spin;
+    -ms-animation-name: left-spin;
     -ms-animation-duration: 4000ms;
     -ms-animation-iteration-count: infinite;
     -ms-animation-timing-function: linear;
     
-    animation-name: other-spin;
+    animation-name: left-spin;
     animation-duration: 4000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
