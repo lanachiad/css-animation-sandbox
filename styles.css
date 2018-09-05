@@ -85,7 +85,7 @@ div#outer {
 }
 
 
-#outer:before, #outer:after {
+div#outer:before, div#outer:after {
     content: "";
     position: absolute;
     top: 0;
@@ -94,13 +94,13 @@ div#outer {
     width: 400px;
     background: #D64933;
 }
-#outer:before {
+div#outer:before {
     -webkit-transform: rotate(30deg);
        -moz-transform: rotate(30deg);
         -ms-transform: rotate(30deg);
          -o-transform: rotate(30deg);
 }
-#outer:after {
+div#outer:after {
     -webkit-transform: rotate(60deg);
        -moz-transform: rotate(60deg);
         -ms-transform: rotate(60deg);
@@ -135,7 +135,7 @@ div#middle {
          -o-transform: rotate(20eg);
 }
 
-#middle:before {
+div#middle:before {
     background: #7C7C7C;
     content: "";
     height: 250px;
