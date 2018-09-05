@@ -1,5 +1,6 @@
 body {
 	align-items: center;
+	background-color: #EEE5E9;
 	display: flex;
 	justify-content: center;
 }
@@ -16,6 +17,7 @@ div.rotating-div {
 	position: absolute;
 	right: 0;
 }
+
 @-ms-keyframes spin {
     from { -ms-transform: rotate(0deg); }
     to { -ms-transform: rotate(360deg); }
@@ -59,7 +61,7 @@ div.rotating-div {
 }
 
 div#outer {
-	border: 2px red solid;
+	background-color: #D64933;
 	height: 445px;
 	width: 445px;
 	-webkit-animation-name: spin;
@@ -82,7 +84,7 @@ div#outer {
 }
 
 div#middle {
-	border: 2px blue solid;
+	background-color: #7C7C7C;
 	height: 300px;
 	width: 300px;
 	-webkit-animation-name: other-spin;
