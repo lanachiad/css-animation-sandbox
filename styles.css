@@ -129,6 +129,25 @@ div#middle {
     animation-duration: 4000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+
+      -webkit-transform: rotate(20deg);
+       -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+         -o-transform: rotate(20eg);
+}
+
+#middle:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 300px;
+    background: #7C7C7C;
+    -webkit-transform: rotate(135deg);
+       -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+         -o-transform: rotate(135deg);
 }
 
 div#inner {
