@@ -4,20 +4,29 @@ body {
 	justify-content: center;
 }
 
+div#container {
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+
 div#outer {
 	border: 2px red solid;
 	height: 700px;
+	position: absolute;
 	width: 700px;
 }
 
 div#middle {
 	border: 2px blue solid;
 	height: 500px;
+	position: absolute;
 	width: 500px;
 }
 
 div#inner {
 	border: 2px yellow solid;
 	height: 300px;
+	position: absolute;
 	width: 300px;
 }
