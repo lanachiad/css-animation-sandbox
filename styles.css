@@ -10,23 +10,24 @@ div#container {
 	width: 100%;
 }
 
+div.rotating-div {
+	position: absolute;
+}
+
 div#outer {
 	border: 2px red solid;
 	height: 500px;
-	position: absolute;
 	width: 500px;
 }
 
 div#middle {
 	border: 2px blue solid;
 	height: 300px;
-	position: absolute;
 	width: 300px;
 }
 
 div#inner {
 	border: 2px yellow solid;
 	height: 100px;
-	position: absolute;
 	width: 100px;
 }
