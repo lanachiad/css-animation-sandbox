@@ -66,20 +66,20 @@ div#outer {
 	margin-top: 90px;
 	width: 400px;
 	-webkit-animation-name: right-spin;
-    -webkit-animation-duration: 4000ms;
+    -webkit-animation-duration: 6000ms;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-name: right-spin;
-    -moz-animation-duration: 4000ms;
+    -moz-animation-duration: 6000ms;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
     -ms-animation-name: right-spin;
-    -ms-animation-duration: 4000ms;
+    -ms-animation-duration: 6000ms;
     -ms-animation-iteration-count: infinite;
     -ms-animation-timing-function: linear;
     
     animation-name: right-spin;
-    animation-duration: 4000ms;
+    animation-duration: 6000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -113,18 +113,18 @@ div#middle {
 	margin-top: 155px;
 	width: 250px;
 	-webkit-animation-name: left-spin;
-    -webkit-animation-duration: 4000ms;
+    -webkit-animation-duration: 6000ms;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-name: left-spin;
-    -moz-animation-duration: 4000ms;
+    -moz-animation-duration: 6000ms;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
     -ms-animation-name: left-spin;
-    -ms-animation-duration: 4000ms;
+    -ms-animation-duration: 6000ms;
     -ms-animation-iteration-count: infinite;
     -ms-animation-timing-function: linear;
-    animation-duration: 4000ms;
+    animation-duration: 6000ms;
     animation-iteration-count: infinite;
     animation-name: left-spin;
     animation-timing-function: linear;
@@ -159,4 +159,12 @@ div#inner {
 	right: 0;
 	top: 600px;
 	width: 600px;
+}
+
+a {
+	border: 2px solid #56A3A6;
+	color: #56A3A6;
+	font-weight: bold;
+	padding: 5px;
+	text-decoration: none;
 }
