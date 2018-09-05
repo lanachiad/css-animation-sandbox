@@ -3,3 +3,21 @@ body {
 	display: flex;
 	justify-content: center;
 }
+
+div#outer {
+	border: 2px red solid;
+	height: 700px;
+	width: 700px;
+}
+
+div#middle {
+	border: 2px blue solid;
+	height: 500px;
+	width: 500px;
+}
+
+div#inner {
+	border: 2px yellow solid;
+	height: 300px;
+	width: 300px;
+}
