@@ -60,8 +60,8 @@ div.rotating-div {
 
 div#outer {
 	border: 2px red solid;
-	height: 500px;
-	width: 500px;
+	height: 445px;
+	width: 445px;
 	-webkit-animation-name: spin;
     -webkit-animation-duration: 4000ms;
     -webkit-animation-iteration-count: infinite;
