@@ -62,9 +62,9 @@ div.rotating-div {
 
 div#outer {
 	background-color: #D64933;
-	height: 445px;
-	margin-top: 40px;
-	width: 445px;
+	height: 400px;
+	margin-top: 90px;
+	width: 400px;
 	-webkit-animation-name: right-spin;
     -webkit-animation-duration: 4000ms;
     -webkit-animation-iteration-count: infinite;
@@ -90,8 +90,8 @@ div#outer {
     position: absolute;
     top: 0;
     left: 0;
-    height: 445px;
-    width: 445px;
+    height: 400px;
+    width: 400px;
     background: #D64933;
 }
 #outer:before {
@@ -109,9 +109,9 @@ div#outer {
 
 div#middle {
 	background-color: #7C7C7C;
-	height: 300px;
-	margin-top: 100px;
-	width: 300px;
+	height: 250px;
+	margin-top: 155px;
+	width: 250px;
 	-webkit-animation-name: left-spin;
     -webkit-animation-duration: 4000ms;
     -webkit-animation-iteration-count: infinite;
@@ -124,26 +124,25 @@ div#middle {
     -ms-animation-duration: 4000ms;
     -ms-animation-iteration-count: infinite;
     -ms-animation-timing-function: linear;
-    
-    animation-name: left-spin;
     animation-duration: 4000ms;
     animation-iteration-count: infinite;
+    animation-name: left-spin;
     animation-timing-function: linear;
 
-      -webkit-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
        -moz-transform: rotate(20deg);
         -ms-transform: rotate(20deg);
          -o-transform: rotate(20eg);
 }
 
 #middle:before {
+    background: #7C7C7C;
     content: "";
+    height: 250px;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
-    height: 300px;
-    width: 300px;
-    background: #7C7C7C;
+    width: 250px;
     -webkit-transform: rotate(135deg);
        -moz-transform: rotate(135deg);
         -ms-transform: rotate(135deg);
@@ -152,12 +151,12 @@ div#middle {
 
 div#inner {
 	background-color: #000;
-	height: 200px;
-	width: 600px;
-	top: 500px;
-	left: 0;
-	right: 0;
 	bottom: 0;
-	position: absolute;
+	height: 200px;
+	left: 0;
 	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 600px;
+	width: 600px;
 }
