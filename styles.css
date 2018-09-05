@@ -109,7 +109,7 @@ div#middle {
 }
 
 div#inner {
-	border: 2px yellow solid;
+	background-color: #000;
 	height: 200px;
 	width: 600px;
 	top: 500px;
