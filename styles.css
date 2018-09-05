@@ -63,6 +63,7 @@ div.rotating-div {
 div#outer {
 	background-color: #D64933;
 	height: 445px;
+	margin-top: 40px;
 	width: 445px;
 	-webkit-animation-name: spin;
     -webkit-animation-duration: 4000ms;
@@ -86,6 +87,7 @@ div#outer {
 div#middle {
 	background-color: #7C7C7C;
 	height: 300px;
+	margin-top: 100px;
 	width: 300px;
 	-webkit-animation-name: other-spin;
     -webkit-animation-duration: 4000ms;
@@ -108,6 +110,12 @@ div#middle {
 
 div#inner {
 	border: 2px yellow solid;
-	height: 100px;
-	width: 100px;
+	height: 200px;
+	width: 600px;
+	top: 500px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	margin: auto;
 }
