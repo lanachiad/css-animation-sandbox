@@ -84,6 +84,29 @@ div#outer {
     animation-timing-function: linear;
 }
 
+
+#outer:before, #outer:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 445px;
+    width: 445px;
+    background: #D64933;
+}
+#outer:before {
+    -webkit-transform: rotate(30deg);
+       -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+         -o-transform: rotate(30deg);
+}
+#outer:after {
+    -webkit-transform: rotate(60deg);
+       -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+         -o-transform: rotate(60deg);
+}
+
 div#middle {
 	background-color: #7C7C7C;
 	height: 300px;
@@ -106,28 +129,6 @@ div#middle {
     animation-duration: 4000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-}
-
-#middle:before, #middle:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 300px;
-    width: 300px;
-    background: #7C7C7C;
-}
-#middle:before {
-    -webkit-transform: rotate(30deg);
-       -moz-transform: rotate(30deg);
-        -ms-transform: rotate(30deg);
-         -o-transform: rotate(30deg);
-}
-#middle:after {
-    -webkit-transform: rotate(60deg);
-       -moz-transform: rotate(60deg);
-        -ms-transform: rotate(60deg);
-         -o-transform: rotate(60deg);
 }
 
 div#inner {
